@@ -1,0 +1,227 @@
+.forgot-pass-parent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.forgot-pass-container {
+    height: 100%;
+    flex: 1;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 32px 0px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 28px;
+    color: #212529;
+    font-family: Figtree;
+}
+
+.forgot-pass-content {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.forgot-pass-header {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+    text-align: center;
+    font-size: 28px;
+    color: #212529;
+    font-family: Figtree;
+}
+
+.forgot-pass-text {
+    width: 100%;
+    position: relative;
+    font-size: 28px;
+    line-height: 120%;
+    display: inline-block;
+    font-family: Figtree;
+    color: #212529;
+    text-align: center;
+}
+
+.instruction {
+    width: 100%;
+    position: relative;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: Figtree;
+    color: #6c757d;
+    text-align: center;
+    display: inline-block;
+}
+
+.forgot-pass-input {
+    width: 100%;
+    position: relative;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 16px;
+    color: #6c757d;
+    font-family: Figtree;
+}
+
+.forgot-pass-email {
+    flex: 85%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 11px 16px;
+
+}
+
+.edit-container {
+    flex: 15%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 11px 16px;
+}
+.eye-container{
+    flex: 15%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 11px 16px;
+
+}
+
+.edit-text {
+    color: #0d6efd;
+}
+
+.forgot-pass-field {
+    flex: 1;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 11px 16px;
+}
+
+.forgot-pass-button {
+    width: 100%;
+    height: 45px;
+}
+
+.forgot-pass-google {
+    width: 100%;
+    position: relative;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #6c757d;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 16px;
+    gap: 8px;
+    text-align: left;
+    font-size: 18px;
+    color: #6c757d;
+    font-family: Figtree;
+}
+
+.divider {
+    position: relative;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: Inter;
+    color: #475467;
+    text-align: center;
+}
+
+.question {
+    position: relative;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Figtree;
+    color: #212529;
+    text-align: left;
+    margin-top: 32px;
+}
+.forgot-link{
+    position: relative;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Figtree;
+    color: #212529;
+    text-align: left;
+}
+
+.forgot-pass-inst {
+    width: 100%;
+    position: relative;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: Figtree;
+    color: #6c757d;
+    text-align: center;
+    display: inline-block;
+}
+
+.forgot-pass-bottom {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Figtree;
+    color: #212529;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    gap:3px;
+}
+
+.link-style {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Figtree;
+    color: #212529;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}

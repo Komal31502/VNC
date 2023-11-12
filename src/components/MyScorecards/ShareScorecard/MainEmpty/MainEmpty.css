@@ -1,0 +1,417 @@
+#myInput {
+  background-image: url("../../../../../public/images/myscorecards/share-scorecard/search.svg");
+  background-position: 10px 15px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 11px 32px;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+}
+.input-container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 32px 16px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 16px;
+  color: #6c757d;
+  font-family: Figtree;
+}
+.share-scorecard-main-empty {
+  position: relative;
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.17);
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 20px;
+  color: #212529;
+  font-family: Figtree;
+}
+.share-scorecard-main-empty-header {
+  align-self: stretch;
+  border-bottom: 2px solid rgba(33, 37, 41, 0.05);
+  display: flex;
+  flex-direction: row;
+  padding: 16px 24px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  z-index: 1;
+}
+.main-empty-header-title {
+  flex: 1;
+  width: 100%;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  font-size: 20px;
+  color: #212529;
+  font-family: Figtree;
+}
+.share-scorecard-main-body {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 0;
+  font-size: 16px;
+  color: #6c757d;
+}
+.input-share-divider {
+  align-self: stretch;
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  flex-direction: column;
+  padding: 0px 32px;
+  align-items: center;
+  justify-content: center;
+}
+.line-stroke-svg {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 8px;
+  flex-shrink: 0;
+}
+.table-rowmembers-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 14px;
+  color: #212529;
+}
+.share-members-parent {
+  /* width: 100%; */
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: 14px;
+  color: #212529;
+  font-family: Figtree;
+
+}
+.globe-svg {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 8px 9px 0px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+}
+.custom-dropdown {
+  padding: 0px 0px 0px 0px;
+  font-size: 14px;
+  margin-left: 9px;
+}
+.name-email-input {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 32px 16px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 16px;
+  color: #6c757d;
+  font-family: Figtree;
+}
+
+.custom-input {
+  flex: 1;
+  width: 100%;
+  position: relative;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 11px 16px;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 16px;
+  color: #6c757d;
+  font-family: Figtree;
+}
+.share-scorecard-invite-by-em {
+  position: relative;
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.17);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 16px;
+  color: #212529;
+  font-family: Figtree;
+}
+
+.invite-by-em-body {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 16px;
+  color: #212529;
+  font-family: Figtree;
+}
+
+.invite-by-em-footer-main {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  border-top: 1px solid #dee2e6;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  padding: 12px;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: 16px;
+  color: #495057;
+  font-family: Figtree;
+}
+
+.invite-body-frame {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  text-align: left;
+  font-size: 16px;
+  color: #212529;
+  font-family: Figtree;
+}
+
+.invite-users-text {
+  width: 100%;
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  font-family: Figtree;
+  color: #212529;
+  text-align: left;
+  display: inline-block;
+}
+
+.inputs-frame {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 16px;
+  color: #212529;
+  font-family: Figtree;
+}
+
+.username-input {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 32px 16px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 16px;
+  color: #6c757d;
+  font-family: Figtree;
+}
+.custom-input {
+  flex: 1;
+  width: 100%;
+  position: relative;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 11px 16px;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 16px;
+  color: #6c757d;
+  font-family: Figtree;
+}
+
+.email-field {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0px 9px 8px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  font-size: 14px;
+  color: #495057;
+  font-family: Figtree;
+}
+
+.add-email-address-main {
+  position: relative;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  /* padding: 6px 12px; */
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  text-align: left;
+  font-size: 14px;
+  color: #495057;
+  font-family: Figtree;
+}
+
+.plus-icon {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.share-members {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 32px 16px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  text-align: left;
+  font-size: 16px;
+  color: #212529;
+  font-family: Figtree;
+}
+.members-details-cells {
+  display: flex;
+  gap: 10px;
+}
+.name-style {
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: Figtree;
+  color: #212529;
+  text-align: left;
+}
+.username-style {
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Figtree;
+  color: #6c757d;
+  text-align: left;
+}
+.left-part-style {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.right-part-style {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.members-heading
+{
+  color: var(--text-primary, #212529);
+
+/* Heading/H6 */
+font-family: Figtree;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px; /* 137.5% */
+}
+.share-text
+{
+  position: relative;
+font-size: 14px;
+width:180px;
+line-height: 20px;
+font-weight: 600;
+font-family: Figtree;
+color: #212529;
+text-align: left;
+}

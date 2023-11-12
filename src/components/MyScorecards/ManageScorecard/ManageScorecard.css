@@ -1,0 +1,40 @@
+.saveBtn {
+    border: none;
+    border-radius: 8px;
+    background-color: #407fff;
+    box-sizing: border-box;
+    padding: 8px 16px;
+    text-align: left;
+    font-size: 16px;
+    color: #fff;
+    font-family: Figtree;
+}
+
+.cancelBtn {
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(0, 33, 66, 0.06);
+    padding: 8px 16px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 16px;
+    color: #495057;
+    font-family: Figtree;
+}
+
+.title {
+    color: var(--text-primary, #212529);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 24px */
+}
+
+.labelFont {
+    font-size: 16px;
+    line-height: 150%;
+    font-family: Figtree;
+    color: #212529;
+    text-align: left;
+}

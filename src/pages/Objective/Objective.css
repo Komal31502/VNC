@@ -1,0 +1,1195 @@
+.objDettext39 {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+  font-weight: 600;
+}
+.objDettitle {
+  flex: 1;
+  background-color: var(--hitbox);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.objDetignore134 {
+  position: relative;
+  width: 0;
+  height: 0;
+}
+.objDetheight-change-size-here32,
+.objDetwidth-change-size-here32 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.objDetheight-change-size-here32 {
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.objDeticon-wrapper38 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.objDeticon-wrapper-h32,
+.objDeticon15 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.objDeticon-wrapper-h32 {
+  align-self: stretch;
+  flex-direction: row;
+}
+.objDeticon15 {
+  background-color: var(--hitbox);
+  overflow: hidden;
+  flex-direction: column;
+}
+.objDetbutton,
+.objDetbuttons-wrapper,
+.objDetheader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.objDetbutton {
+  border-radius: var(--br-5xs);
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  box-sizing: border-box;
+  justify-content: center;
+}
+.objDetbuttons-wrapper,
+.objDetheader {
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.objDetheader {
+  align-self: stretch;
+  border-bottom: 1px solid var(--components-divider-divider-background);
+  padding: var(--padding-base) var(--padding-base) var(--padding-base)
+    var(--padding-13xl);
+  z-index: 3;
+  color: var(--body-text-body-color);
+}
+.objDetwidth-change-size-here35 {
+  display: flex;
+  flex-direction: row;
+  gap: var(--gap-sm);
+}
+.objDetheight-change-size-here35,
+.objDeticon18,
+.objDetwidth-change-size-here35 {
+  overflow: hidden;
+  align-items: center;
+  justify-content: flex-start;
+}
+.objDetheight-change-size-here35 {
+  display: flex;
+  flex-direction: row;
+  gap: var(--gap-sm);
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.objDeticon18 {
+  background-color: var(--hitbox);
+  display: none;
+  flex-direction: column;
+}
+.objDettext41 {
+  position: relative;
+  line-height: 150%;
+}
+.objDettext40 {
+  background-color: var(--hitbox);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.objDetwidth-change-size-here36 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.objDetheight-change-size-here36 {
+  overflow: hidden;
+  align-items: center;
+  gap: var(--gap-3xs);
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.objDetheight-change-size-here36,
+.objDethorizontal-nav-item10,
+.objDethorizontal-nav-item11,
+.objDetwrapper17 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.objDethorizontal-nav-item10 {
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  border-bottom: 2px solid var(--blue-400);
+  overflow: hidden;
+  padding: var(--padding-5xs) var(--padding-base) var(--padding-4xs);
+  align-items: center;
+  gap: var(--gap-9xs);
+  color: var(--text-link);
+}
+.objDethorizontal-nav-item11,
+.objDetwrapper17 {
+  border-bottom: 1px solid var(--gray-200);
+}
+.objDethorizontal-nav-item11 {
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  overflow: hidden;
+  padding: var(--padding-5xs) var(--padding-base) var(--padding-4xs);
+  align-items: center;
+  gap: var(--gap-9xs);
+}
+.objDetwrapper17 {
+  align-self: stretch;
+  align-items: flex-end;
+}
+.objDetcomponentstabs-top,
+.objDettabstop {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.objDetcomponentstabs-top {
+  overflow: hidden;
+}
+.objDettabstop {
+  background-color: var(--hitbox);
+  padding: var(--padding-5xs) var(--padding-13xl) 0;
+  z-index: 2;
+  font-size: var(--body-16-regular-size);
+  color: var(--gray-700);
+}
+.objDettext48 {
+  position: relative;
+  line-height: 100%;
+  font-weight: 500;
+}
+.objDetbadge4,
+.objDetbadge5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.objDetbadge5 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-81xl);
+  background-color: var(--gray-200);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-3xs);
+  gap: var(--gap-9xs);
+}
+.objDetbadge4 {
+  background-color: var(--hitbox);
+  height: 20px;
+  flex-direction: column;
+}
+.objDetbadge-wrapper,
+.objDetbar-width-change-size-here {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.objDetbadge-wrapper {
+  padding: 0 0 0 241px;
+}
+.objDetbar-width-change-size-here {
+  background-color: var(--yellow-400);
+  width: 184px;
+  gap: 100px;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+  z-index: 0;
+}
+.objDetprogressstriped-icon {
+  position: relative;
+  width: 128px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  opacity: 0.15;
+}
+.objDetrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.objDetprogress-bar,
+.objDetstriped {
+  display: flex;
+  transform-origin: 0 0;
+}
+.objDetstriped {
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% + 24px);
+  right: -1280px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  transform: rotate(180deg);
+  z-index: 1;
+}
+.objDetprogress-bar {
+  align-self: stretch;
+  border-radius: 32px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  transform: rotate(-180deg);
+  z-index: 0;
+}
+.objDetframe-child {
+  flex: 1;
+  position: relative;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  height: 0;
+  z-index: 1;
+}
+.objDetframe-item {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 13.89px);
+  left: 249px;
+  width: 128px;
+  height: 24.89px;
+  z-index: 2;
+}
+.objDetprogress-bar-parent {
+  align-self: stretch;
+  height: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.objDetb {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+  mix-blend-mode: normal;
+}
+.objDetdot1 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-81xl);
+  background-color: var(--yellow-400);
+  overflow: hidden;
+}
+.objDetbadge6 {
+  background-color: var(--hitbox);
+  width: 8px;
+  height: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.objDetat-risk {
+  position: relative;
+  font-size: var(--body-14-regular-size);
+  line-height: 20px;
+  font-weight: 600;
+}
+.objDetframe-parent,
+.objDetparent {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.objDetparent {
+  flex-direction: row;
+  padding: 0 2px;
+  align-items: center;
+  gap: 5px;
+  text-align: left;
+  font-size: var(--body-16-regular-size);
+}
+.objDetframe-parent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-7xs);
+  color: var(--body-text-body-color);
+}
+.objDetline-chart-child,
+.objDetline-chart-inner,
+.objDetline-chart-item,
+.objDetline-div {
+  position: absolute;
+  top: 27.5px;
+  left: 82.5px;
+  border-top: 1px solid var(--gray-200);
+  box-sizing: border-box;
+  width: 429px;
+  height: 1px;
+}
+.objDetline-chart-inner,
+.objDetline-chart-item,
+.objDetline-div {
+  top: 73.5px;
+}
+.objDetline-chart-inner,
+.objDetline-div {
+  top: 50.5px;
+  border-top: 1px solid var(--blue-300);
+}
+.objDetline-div {
+  top: 7.5px;
+  border-top: 1px solid var(--indigo-300);
+}
+.objDetline-chart-child1,
+.objDetline-chart-child2,
+.objDetline-chart-child3,
+.objDetline-chart-child4 {
+  position: absolute;
+  top: 94.5px;
+  left: 82.5px;
+  border-top: 1px solid var(--gray-200);
+  box-sizing: border-box;
+  width: 429px;
+  height: 1px;
+}
+.objDetline-chart-child2,
+.objDetline-chart-child3,
+.objDetline-chart-child4 {
+  top: 162.5px;
+}
+.objDetline-chart-child3,
+.objDetline-chart-child4 {
+  top: 117.5px;
+  border-top: 1px solid var(--gray-400);
+}
+.objDetline-chart-child4 {
+  top: 141.5px;
+  border-top: 1px solid var(--orange-300);
+}
+.objDetdiv,
+.objDetdiv1,
+.objDetdiv2,
+.objDetdiv3,
+.objDetdiv4,
+.objDetdiv5 {
+  position: absolute;
+  top: 67.38%;
+  left: 11.46%;
+  color: var(--gray2);
+  text-align: right;
+}
+.objDetdiv1,
+.objDetdiv2,
+.objDetdiv3,
+.objDetdiv4,
+.objDetdiv5 {
+  top: 57.08%;
+  left: 10.76%;
+}
+.objDetdiv2,
+.objDetdiv3,
+.objDetdiv4,
+.objDetdiv5 {
+  top: 47.21%;
+  left: 10.59%;
+}
+.objDetdiv3,
+.objDetdiv4,
+.objDetdiv5 {
+  top: 38.2%;
+  left: 10.42%;
+}
+.objDetdiv4,
+.objDetdiv5 {
+  top: 19.31%;
+  left: 9.72%;
+}
+.objDetdiv5 {
+  top: 0.43%;
+  left: 9.9%;
+}
+.objDetbaseline,
+.objDetmax,
+.objDetmin,
+.objDettarget {
+  position: absolute;
+  top: calc(50% + 15.5px);
+  left: 91.49%;
+  font-size: var(--body-12-regular-size);
+  line-height: 150%;
+  text-align: left;
+}
+.objDetbaseline,
+.objDetmax,
+.objDettarget {
+  top: calc(50% - 7.5px);
+}
+.objDetmax,
+.objDettarget {
+  top: calc(50% - 72.5px);
+}
+.objDetmax {
+  top: calc(50% - 116.5px);
+}
+.objDetmay,
+.objDetmay1 {
+  top: 76.82%;
+  font-family: var(--x-content);
+}
+.objDetmay {
+  position: absolute;
+  left: 21.28%;
+}
+.objDetmay1 {
+  left: 36.4%;
+}
+.objDetbadge7,
+.objDetjun,
+.objDetmay1 {
+  position: absolute;
+}
+.objDetjun {
+  top: 76.82%;
+  left: 53.09%;
+  font-family: var(--x-content);
+}
+.objDetbadge7 {
+  height: 8.58%;
+  width: 15.1%;
+  top: 90.88%;
+  right: 44.36%;
+  bottom: 0.54%;
+  left: 40.54%;
+  background-color: var(--hitbox);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--body-12-regular-size);
+  color: var(--body-text-body-color);
+}
+.objDetjul,
+.objDetjun1 {
+  position: absolute;
+  top: 76.82%;
+  left: 68.38%;
+  font-family: var(--x-content);
+}
+.objDetjul {
+  left: 85.06%;
+}
+.objDetline-chart-child5,
+.objDetvector-icon {
+  position: absolute;
+  height: 11.14%;
+  width: 25.29%;
+  top: 40.14%;
+  right: 60.26%;
+  bottom: 48.72%;
+  left: 14.45%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.objDetline-chart-child5 {
+  height: 29.18%;
+  width: 25.17%;
+  top: 40.77%;
+  right: 60.42%;
+  bottom: 30.04%;
+  left: 14.41%;
+  opacity: 0.2;
+}
+.objDetline-chart-child6 {
+  position: absolute;
+  top: 6px;
+  left: 276px;
+  border-right: 2px dashed var(--gray-600);
+  box-sizing: border-box;
+  width: 2px;
+  height: 202px;
+}
+.objDetline-chart-child7,
+.objDetline-chart-child8 {
+  position: absolute;
+  height: 20.58%;
+  width: 47.53%;
+  top: 20.82%;
+  right: 12.81%;
+  bottom: 58.59%;
+  left: 39.65%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.objDetline-chart-child8 {
+  height: 48.5%;
+  width: 47.74%;
+  top: 21.46%;
+  right: 12.5%;
+  bottom: 30.04%;
+  left: 39.76%;
+  opacity: 0.2;
+}
+.objDetline-chart-child10,
+.objDetline-chart-child11,
+.objDetline-chart-child12,
+.objDetline-chart-child13,
+.objDetline-chart-child9 {
+  position: absolute;
+  top: 108.5px;
+  left: 135.5px;
+  border-right: 1px dashed var(--gray-800);
+  box-sizing: border-box;
+  width: 1px;
+  height: 67px;
+  opacity: 0.4;
+}
+.objDetline-chart-child10,
+.objDetline-chart-child11,
+.objDetline-chart-child12,
+.objDetline-chart-child13 {
+  top: 96.5px;
+  left: 227.5px;
+  height: 79px;
+}
+.objDetline-chart-child11,
+.objDetline-chart-child12,
+.objDetline-chart-child13 {
+  top: 79.5px;
+  left: 319.5px;
+  height: 96px;
+}
+.objDetline-chart-child12,
+.objDetline-chart-child13 {
+  top: 65.5px;
+  left: 411.5px;
+  height: 110px;
+}
+.objDetline-chart-child13 {
+  top: 48.5px;
+  left: 503.5px;
+  height: 127px;
+}
+.objDettext50 {
+  position: relative;
+  line-height: 100%;
+  font-weight: 600;
+}
+.objDetbadge10,
+.objDetbadge9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.objDetbadge10 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-81xl);
+  background-color: var(--blue-400);
+  border: 2px solid var(--gray-white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-3xs);
+  gap: var(--gap-9xs);
+}
+.objDetbadge9 {
+  position: absolute;
+  top: 100px;
+  left: 126px;
+  background-color: var(--hitbox);
+  width: 20px;
+  height: 20px;
+  flex-direction: column;
+  font-size: var(--font-size-4xs);
+  color: var(--gray-white);
+}
+.objDetline-icon {
+  position: absolute;
+  top: 93.09px;
+  left: 228px;
+  width: 49.71px;
+  height: 14.91px;
+}
+.objDetbadge12 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-81xl);
+  background-color: var(--yellow-400);
+  border: 4px solid rgba(255, 193, 7, 0.32);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.objDetbadge11,
+.objDetbadge13 {
+  position: absolute;
+  background-color: var(--hitbox);
+  flex-direction: column;
+}
+.objDetbadge11 {
+  top: 95px;
+  left: 265px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--body-12-regular-size);
+  color: var(--body-text-body-color);
+}
+.objDetbadge13 {
+  top: 85px;
+  left: 218px;
+  width: 20px;
+  height: 20px;
+  font-size: var(--font-size-4xs);
+  color: var(--gray-white);
+}
+.objDetbadge13,
+.objDetbadge15,
+.objDetbadge16,
+.objDetbadge17,
+.objDetbadge19 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.objDetbadge16 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-81xl);
+  background-color: var(--gray-500);
+  border: 2px solid var(--gray-white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-3xs);
+  gap: var(--gap-9xs);
+}
+.objDetbadge15,
+.objDetbadge17,
+.objDetbadge19 {
+  position: absolute;
+  top: 70px;
+  left: 310px;
+  background-color: var(--hitbox);
+  width: 20px;
+  height: 20px;
+  flex-direction: column;
+  font-size: var(--font-size-4xs);
+  color: var(--gray-white);
+}
+.objDetbadge17,
+.objDetbadge19 {
+  top: 55px;
+  left: 402px;
+}
+.objDetbadge19 {
+  top: 39px;
+  left: 494px;
+}
+.objDetvalue-based-on {
+  position: absolute;
+  top: calc(50% + 39.5px);
+  left: 0;
+  font-size: var(--body-12-regular-size);
+  line-height: 150%;
+  display: inline-block;
+  width: 138px;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.objDetline-chart {
+  align-self: stretch;
+  position: relative;
+  height: 233px;
+  font-size: var(--x-content-size);
+}
+.objDetorder-details {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  width: 104px;
+  flex-shrink: 0;
+  mix-blend-mode: normal;
+}
+.objDetavatar-placeholder-change-i4 {
+  position: absolute;
+  margin: 0 !important;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-980xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.objDetaspect-ratio-keeper-rotated4 {
+  align-self: stretch;
+  transform: rotate(24.47deg);
+  transform-origin: 0 0;
+}
+.objDetaspect-ratio-keeper-addition4,
+.objDetavatar2 {
+  height: 24px;
+  display: flex;
+  justify-content: flex-start;
+}
+.objDetaspect-ratio-keeper-addition4 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  transform: rotate(-45deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.objDetavatar2 {
+  border-radius: var(--br-980xl);
+  width: 24px;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+}
+.objDetorder-details1 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  mix-blend-mode: normal;
+}
+.objDetavatar-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  color: var(--body-text-body-color);
+}
+.objDetorder-details-parent,
+.objDetus1,
+.objDetwrapper22 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.objDetorder-details-parent {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.objDetus1,
+.objDetwrapper22 {
+  flex: 1;
+  justify-content: center;
+}
+.objDetus1 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+}
+.objDetwrapper22 {
+  overflow: hidden;
+  flex-direction: row;
+}
+.objDetavatar-group,
+.objDetavatar6 {
+  display: flex;
+  justify-content: flex-start;
+}
+.objDetavatar6 {
+  border-radius: var(--br-980xl);
+  background-color: var(--gray-200);
+  width: 24px;
+  height: 24px;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.objDetavatar-group {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-7xs);
+  text-align: center;
+  font-size: var(--body-12-regular-size);
+}
+.objDetorder-details4 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  color: var(--body-text-body-color);
+  mix-blend-mode: normal;
+}
+.objDetframe-group,
+.objDetorder-details-parent1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.objDetorder-details-parent1 {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.objDetframe-group {
+  flex-direction: column;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--body-14-regular-size);
+}
+.objDetbody,
+.objDetframe-group,
+.objDetsize-adjuster1 {
+  justify-content: flex-start;
+}
+.objDetbody {
+  align-self: stretch;
+  background-color: var(--gray-white);
+  overflow-y: auto;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-5xl) var(--padding-13xl);
+  align-items: flex-start;
+  gap: 32px;
+}
+.objDetsize-adjuster1 {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-837xl);
+}
+.objDetaspect-ratio-keeper-addition8 {
+  align-self: stretch;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(-45deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.objDetavatar-wrapper1,
+.objDetavatar7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.objDetavatar7 {
+  border-radius: var(--br-980xl);
+  width: 32px;
+  align-items: flex-end;
+  position: relative;
+}
+.objDetavatar-wrapper1 {
+  align-self: stretch;
+  padding: 0 var(--padding-base) 0 0;
+  align-items: flex-start;
+}
+.objDettext56 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.objDettime1 {
+  flex: 1;
+  background-color: var(--hitbox);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: var(--body-12-regular-size);
+  color: var(--gray-500);
+}
+.objDetwrapper-icon3 {
+  position: relative;
+  width: 14px;
+  height: 14px;
+}
+.objDeticon-wrapper65 {
+  background-color: var(--hitbox);
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.objDeticon-wrapper66,
+.objDetmeta-fields1 {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.objDeticon-wrapper66 {
+  background-color: var(--hitbox);
+  flex-direction: column;
+  justify-content: center;
+}
+.objDetmeta-fields1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.objDettext58 {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.objDetcomment1,
+.objDetmin-width-change-size-here2 {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+}
+.objDetmin-width-change-size-here2 {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-381xl);
+}
+.objDetcomment1 {
+  align-self: stretch;
+  background-color: var(--hitbox);
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--body-text-body-color);
+}
+.objDetheight-change-size-here51,
+.objDetwidth-change-size-here51 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.objDetheight-change-size-here51 {
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.objDettext59 {
+  position: relative;
+  line-height: 20px;
+}
+.objDetactions1,
+.objDetlike1 {
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.objDetlike1 {
+  display: flex;
+  gap: var(--gap-5xs);
+}
+.objDetactions1 {
+  display: none;
+  gap: var(--gap-3xs);
+}
+.objDetcomment-body1,
+.objDetcommentitem1,
+.objDetwrapper23 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.objDetcomment-body1 {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.objDetcommentitem1,
+.objDetwrapper23 {
+  align-self: stretch;
+  flex-direction: row;
+}
+.objDetcommentitem1 {
+  background-color: var(--hitbox);
+  flex-direction: column;
+  padding: var(--padding-5xs) 0;
+}
+.objDetline-stroke-icon1 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1px;
+  flex-shrink: 0;
+}
+.objDetbody1,
+.objDetcontainer,
+.objDetdivider {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+.objDetdivider {
+  background-color: var(--hitbox);
+  align-items: center;
+  justify-content: center;
+}
+.objDetbody1,
+.objDetcontainer {
+  overflow-y: auto;
+  justify-content: flex-start;
+}
+.objDetbody1 {
+  background-color: var(--gray-100);
+  flex-shrink: 0;
+  padding: var(--padding-5xl) var(--padding-13xl);
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--body-14-regular-size);
+}
+.objDetcontainer {
+  flex: 1;
+  align-items: center;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--body-12-regular-size);
+}
+.objDetplaceholder5 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  z-index: 0;
+}
+.objDetresizer-icon2 {
+  position: absolute;
+  margin: 0 !important;
+  right: 4px;
+  bottom: 4px;
+  width: 8px;
+  height: 8px;
+  z-index: 1;
+}
+.objDetplaceholder4,
+.objDettext68 {
+  align-self: stretch;
+  position: relative;
+}
+.objDetplaceholder4 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--gray-white);
+  border: 1px solid var(--gray-400);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-8xs) var(--padding-xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.objDettext68 {
+  line-height: 150%;
+}
+.objDettextarea1,
+.objDetword-count2 {
+  align-self: stretch;
+  flex-direction: column;
+}
+.objDetword-count2 {
+  background-color: var(--hitbox);
+  overflow: hidden;
+  display: none;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: right;
+  font-size: var(--body-16-regular-size);
+}
+.objDettextarea1 {
+  flex: 1;
+}
+.objDetcomment-form1,
+.objDetcommentcomment-editor,
+.objDettextarea1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.objDetcomment-form1 {
+  flex: 1;
+  height: 32px;
+  overflow: hidden;
+  flex-direction: column;
+}
+.objDetcommentcomment-editor {
+  align-self: stretch;
+  background-color: var(--hitbox);
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.objDetbody2,
+.objDetdetails {
+  display: flex;
+  flex-direction: column;
+}
+.objDetbody2 {
+  align-self: stretch;
+  background-color: var(--gray-100);
+  border-top: 1px solid var(--components-divider-divider-background);
+  overflow-y: auto;
+  padding: var(--padding-base) var(--padding-13xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 0;
+  font-size: var(--body-14-regular-size);
+}
+.objDetdetails {
+  position: relative;
+  background-color: var(--gray-white);
+  border-left: 1px solid var(--components-offcanvas-border);
+  box-sizing: border-box;
+  width: 100%;
+  height: 960px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--heading-h4-size);
+  color: var(--gray-600);
+  font-family: var(--body-16-regular);
+}

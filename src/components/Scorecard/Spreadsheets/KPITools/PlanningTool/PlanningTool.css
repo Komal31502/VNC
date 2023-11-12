@@ -1,0 +1,44 @@
+.planning-tool-header{
+    display:flex;
+    flex-direction: column;
+}
+.header-flex{
+    width: 100%;
+position: relative;
+font-size: 24px;
+line-height: 120%;
+font-weight: 600;
+font-family: Figtree;
+color: #212529;
+text-align: left;
+display: inline-block;
+}
+.subheader-flex{
+    width: 100%;
+    position: relative;
+    font-size: 13px;
+    line-height: 150%;
+    font-family: Figtree;
+    color: #6c757d;
+    text-align: left;
+    font-weight: 300;
+    display: inline-block;
+}
+.table-header-class{
+    position: relative;
+font-size: 12px;
+line-height: 150%;
+font-weight: 600;
+font-family: Figtree;
+color: #6c757d;
+text-align: left;
+}
+.font-size-16px{
+    font-size: 13px;
+}
+table{
+    font-size: 10px;
+}
+th, td {
+    font-size: 10px; 
+}

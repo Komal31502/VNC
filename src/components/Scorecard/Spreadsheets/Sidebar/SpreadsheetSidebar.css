@@ -1,0 +1,261 @@
+
+
+
+.theme-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:10px;
+    height:10px;
+    border-radius: 999px;
+    border:1px solid rgb(192, 188, 188)
+}
+
+.foundation-divider {
+    /* width:100%; */
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+    padding: 0px 32px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider-height {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 2px;
+    flex-shrink: 0;
+}
+
+.sidebar-body {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 16px;
+    color: #212529;
+    font-family: Figtree;
+}
+
+.themes-header {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 24px 40px 16px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 16px;
+    color: #212529;
+    font-family: Figtree;
+}
+.indicator-header{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 24px 40px 16px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 16px;
+    color: #212529;
+    font-family: Figtree;
+}
+
+.themes-body {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px 40px 16px;
+    text-align: left;
+    font-size: 14px;
+    color: #212529;
+    font-family: 'Figtree';
+    align-self: stretch;
+}
+.theme-dots{
+    width:10px;
+    height:10px;
+    border-radius: 999px;
+    border:1px solid rgb(192, 188, 188)
+}
+.theme-elements{
+    width: 50%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding:8px 0px;
+    gap:8px;
+
+}
+.indicator-body{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px 40px 16px;
+    text-align: left;
+    font-size: 14px;
+    color: #212529;
+    font-family: 'Figtree';
+  
+}
+.indicator-elemnts{
+    width: 50%;
+    display:flex;
+    flex-direction: row;
+    gap:8px;
+    padding:8px 0px;
+}
+
+
+
+.indicators-icon-leading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 49px;
+    background-color: rgb(174, 248, 168);
+    padding:6px;
+}
+
+.indicators-icon-lagging {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 49px;
+    background-color: rgb(249, 203, 151);
+    padding: 6px;
+}
+
+.expected-outcome-container {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+
+
+.left-1 {
+    /* width: 100%; */
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* padding: 16px 0px; */
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    font-size: 11px;
+    color: #212529;
+    font-family: Figtree;
+    gap: 20px;
+}
+.indicator-left-1{
+      /* width: 100%; */
+      position: relative;
+      background-color: rgba(255, 255, 255, 0);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      padding: 16px 0px;
+      box-sizing: border-box;
+      align-items: flex-start;
+      justify-content: center;
+      text-align: left;
+      font-size: 14px;
+      color: #212529;
+      font-family: Figtree;
+      gap: 20px;
+}
+
+.intimacy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.excellence {
+    display: flex;
+
+}
+
+.right-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 14px;
+    color: #212529;
+    font-family: Figtree;
+}
+
+.right-1 {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* padding: 13px 0px 0px 0px; */
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    font-size: 11px;
+    color: #212529;
+    font-family: Figtree;
+    gap: 20px;
+}
+.task-type {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px 40px 16px;
+    text-align: left;
+    font-size: 14px;
+    color: #212529;
+    font-family: 'Figtree';
+    align-self: stretch;
+}
+.task-elements
+{
+    width: 50%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding:8px 0px;
+    gap:8px;
+    font-size: 14px;
+}
+.task-elements div
+{
+  font-size: 14px;
+}

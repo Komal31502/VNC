@@ -1,0 +1,71 @@
+.goal-container{
+    width:100%;
+    padding:12px;
+    gap:8px;
+    font-family:Figtree;
+}
+.content-container{
+    display:flex;
+    flex-direction: row;
+}
+
+.actions-text-style{
+    flex: 1;
+width: 100%;
+position: relative;
+font-size: 14px;
+line-height: 20px;
+font-family: Figtree;
+color: #212529;
+text-align: left;
+display: inline-block;
+}
+.strategy-map-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100
+}
+
+.strategy-map-header{
+    width: 100%;
+position: relative;
+background-color: #fff;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: space-between;
+padding: 32px 40px 16px;
+box-sizing: border-box;
+text-align: left;
+font-size: 20px;
+color: #212529;
+font-family: Figtree;
+}
+.avatar-name{
+position: relative;
+font-size: 12px;
+line-height: 150%;
+font-family: Figtree;
+color: #6c757d;
+text-align: left;
+}
+.perspective-label{
+    flex: 1;
+width: 100%;
+position: relative;
+font-size: 12px;
+line-height: 150%;
+font-family: Figtree;
+color: #6c757d;
+text-align: left;
+display: inline-block;
+}
+.goal-title
+{
+font-size: 14px;
+line-height: 20px;
+font-weight: 600;
+
+color: #212529;
+}

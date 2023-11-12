@@ -1,0 +1,234 @@
+.login-parent {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.login-container {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 32px 0px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 28px;
+    color: #212529;
+    font-family: 'Figtree';
+}
+
+.side-container {
+    position: relative;
+    width: 50%;
+    background: #011EFF;
+    background-image: url(/public/images/auth/vnc1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:unset;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-container .title {
+    padding: 9.16vh 0px 0px 10%;
+    font-size: 3.5rem;
+    letter-spacing: -0.02em;
+    line-height: 120%;
+    display: inline-block;
+    font-family: 'Figtree';
+    color: #fff;
+    text-align: left;
+    width: 60%;
+}
+
+.side-container .subtitle {
+    padding: 3.125vh 0px 0px 10%;
+    font-size: 1.25rem;
+    line-height: 150%;
+    font-family: 'Figtree';
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    width: 36%;
+}
+
+.login-content {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.form 
+{
+    width: 100%;
+    display: flex;
+flex-direction: column;
+gap: 16px;
+}
+.login-header {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+    text-align: center;
+    font-size: 28px;
+    color: #212529;
+    font-family: Figtree;
+}
+
+.login-text {
+    width: 100%;
+    position: relative;
+    font-size: 28px;
+    line-height: 120%;
+    display: inline-block;
+    font-family: Figtree;
+    color: #212529;
+    text-align: center;
+}
+
+.instruction {
+    width: 100%;
+    position: relative;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: Figtree;
+    color: #6c757d;
+    text-align: center;
+    display: inline-block;
+}
+
+.login-input {
+    width: 100%;
+    position: relative;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 16px;
+    color: #6c757d;
+    font-family: Figtree;
+}
+
+.login-field {
+    flex: 1;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 11px 16px;
+}
+
+.login-button {
+    width: 100%;
+    height: 45px;
+}
+
+.login-google {
+    width: 100%;
+    position: relative;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #6c757d;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 16px;
+    gap: 8px;
+    text-align: left;
+    font-size: 18px;
+    color: #6c757d;
+    font-family: Figtree;
+}
+
+.divider {
+    position: relative;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: Inter;
+    color: #475467;
+    text-align: center;
+}
+
+.message {
+    position: relative;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Figtree';
+    color: #212529;
+    text-align: left;
+    margin-top: 32px;
+}
+
+.question {
+    color: var(--theme-dark, #212529);
+    font-family: 'Figtree';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.free-trial-bottom {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.star-icon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.stars {
+    padding: 3.125vh 0px 0px 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+    font-family: Figtree;
+}
+.rating
+{
+    font-size: 18px;
+line-height: 150%;
+font-family: Figtree;
+color: #fff;
+text-align: left;
+}
+
+.person {
+    position: absolute;
+    bottom:0px;
+    right: 0px;
+    width: 50%;
+    height: 76vh;
+    object-fit: contain;
+}
+
+

@@ -1,0 +1,195 @@
+.members-popover {
+  position: relative;
+  width: 317px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.17);
+}
+
+.header-text {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+  font-weight: 600;
+}
+.header-title {
+  align-self: stretch;
+  background-color: rgba(255, 255, 255, 0);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.members-header {
+  align-self: stretch;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(33, 37, 41, 0.08);
+  display: flex;
+  flex-direction: column;
+  padding: 8px 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.avatar-placeholder-change-i {
+  position: absolute;
+  margin: 0 !important;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 999px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.aspect-ratio-keeper-rotated {
+  align-self: stretch;
+  transform: rotate(24.47deg);
+  transform-origin: 0 0;
+}
+.aspect-ratio-keeper-addition {
+  align-self: stretch;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(-45deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.ignore {
+  position: relative;
+  width: 0px;
+  height: 0px;
+}
+.width-change-size-here {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  z-index: 2;
+}
+.avatar {
+  border-radius: 999px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: relative;
+}
+.member-title-text {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.text2 {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+}
+.members-title-subtitle {
+  background-color: rgba(255, 255, 255, 0);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 12px;
+  color: #6c757d;
+}
+.member-titles {
+  background-color: rgba(255, 255, 255, 0);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menu-wrapper-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.menu-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.container-menu-item {
+  align-self: stretch;
+  background-color: rgba(255, 255, 255, 0);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 8px 16px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.componentsdropdown-menu-item1 {
+  align-self: stretch;
+  background-color: #f0f2f5;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 8px 16px;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.members-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 14px;
+}
+.members-wrapper {
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid rgba(33, 37, 41, 0.08);
+  box-sizing: border-box;
+  width: 317px;
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.arrow-wrapper-icon {
+  position: relative;
+  width: 16px;
+  height: 9px;
+}
+.arrow-position {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 22px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.members-popover {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: left;
+  font-size: 16px;
+  color: #212529;
+  font-family: Figtree;
+}

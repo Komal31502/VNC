@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6b45af07.css",
+    "main.js": "/static/js/main.b9a40eda.js",
+    "static/js/787.4698f9d1.chunk.js": "/static/js/787.4698f9d1.chunk.js",
+    "static/media/Spreadsheet.svg": "/static/media/Spreadsheet.5b1c43edbf52e578bc46f04977e4d075.svg",
+    "static/media/StrategyMap.svg": "/static/media/StrategyMap.b5f17b3d5fd7cff98d4990f3db625390.svg",
+    "static/media/Dashboard.svg": "/static/media/Dashboard.8edce89965257d944b694d5235f0eede.svg",
+    "static/media/Alignment.svg": "/static/media/Alignment.65da8a4beef24e88daa3dda56151b551.svg",
+    "static/media/Reports.svg": "/static/media/Reports.cfd056c21c12c31d93a4258509685e00.svg",
+    "static/media/Tools.svg": "/static/media/Tools.1b508064683b45214b8e590174d928ff.svg",
+    "static/media/vnc1.svg": "/static/media/vnc1.0474cad3daa3ae0f9590.svg",
+    "static/media/search.svg": "/static/media/search.65783e02578efc07110f.svg",
+    "index.html": "/index.html",
+    "main.6b45af07.css.map": "/static/css/main.6b45af07.css.map",
+    "main.b9a40eda.js.map": "/static/js/main.b9a40eda.js.map",
+    "787.4698f9d1.chunk.js.map": "/static/js/787.4698f9d1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b45af07.css",
+    "static/js/main.b9a40eda.js"
+  ]
+}

@@ -1,0 +1,114 @@
+.new-header {
+  display: flex;
+  gap: 8px;
+}
+
+.new-header div {
+  color: var(--text-primary, #212529);
+
+  /* Heading/H4 */
+  font-family: 'Figtree';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  /* 28.8px */
+}
+
+.actions-item {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 32px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 14px;
+  /* color: #6c757d; */
+  font-family: 'Figtree';
+  gap: 12px;
+}
+
+.additem-options-row {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  text-align: left;
+  font-size: 14px;
+  color: #0b0b0b;
+  font-family: Figtree;
+  align-self: stretch;
+
+}
+
+.label-style {
+  height: 100%;
+  width: 96px;
+  position: relative;
+  background-color: rgba(16, 16, 16, 0);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: block;
+  flex-direction: column;
+  padding: 14px 0px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 14px;
+  color: #0a0a0a;
+  font-family: Figtree;
+}
+
+.options-style {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.dropdown-style {
+  width: 100%;
+  height: 48px;
+}
+
+.placeholder-style {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+}
+
+.input-height {
+  height: 45px;
+}
+
+/* .description-label{
+  margin-top: 25px;
+} */
+.margin-top {
+  margin-top: 25px;
+}
+
+.footer {
+  display: flex;
+  padding: 12px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-top: 1px solid var(--theme-border, #DEE2E6);
+  background: var(--gray-white, #FFF);
+}
+.saveBtn:hover {
+  box-shadow: 0px 12px 15px 0 rgba(3, 99, 233, 0.3), 0 17px 50px 0 rgba(0, 0, 0, 0.24);
+}
+.cancelBtn:hover{
+  box-shadow: 0px 12px 20px 0 rgba(109, 109, 115, 0.3), 0 17px 50px 0 rgba(0, 0, 0, 0.24);
+
+}

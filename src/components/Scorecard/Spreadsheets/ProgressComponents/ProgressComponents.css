@@ -1,0 +1,379 @@
+.progress-bottom {
+    display: flex;
+    flex: 20%;
+}
+
+.table-body {
+    padding: 0px 40px 0px;
+}
+
+.tables-elements-header {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    padding: 3.125vh 40px 2.34vh;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: left;
+    font-size: 20px;
+    color: #212529;
+    font-family: Figtree;
+    flex: 80%;
+}
+
+
+
+.header-titles {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+    text-align: left;
+    font-size: 20px;
+    color: #212529;
+    font-family: Figtree;
+    flex: 90%;
+}
+
+.title-style {
+    position: relative;
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: 600;
+    font-family: 'Figtree';
+    color: #212529;
+    text-align: left;
+}
+
+.subtitle-style {
+    position: relative;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Figtree';
+    color: #6c757d;
+    text-align: left;
+}
+
+.header-actions {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+    text-align: left;
+    font-size: 14px;
+    color: #495057;
+    font-family: 'Figtree';
+    flex: 10%;
+}
+
+.table-header {
+    width: 100%;
+ 
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 1px solid rgba(33, 37, 41, 0.05);
+    padding: 0px 40px;
+}
+
+
+
+.header-left {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 12px;
+    color: #6c757d;
+    font-family: Figtree;
+    flex: 40%;
+}
+
+.header-right {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 12px;
+    color: #6c757d;
+    font-family: Figtree;
+    flex: 60%;
+    gap: 70px;
+}
+
+.table-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px 24px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 14px;
+    color: #212529;
+    font-family: Figtree;
+}
+
+.ceo-bsc-card {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.perspective-main {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.bsc-title {
+    flex: 1;
+    width: 100%;
+    position: relative;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #212529;
+    text-align: left;
+    display: inline-block;
+}
+
+.perspective-header {
+    flex: 1;
+    width: 100%;
+    position: relative;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #212529;
+    text-align: left;
+    display: inline-block;
+}
+
+.main-row-container {
+    height: 100%;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 16px 0px 32px;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: left;
+    font-size: 14px;
+    color: #212529;
+    font-family: Figtree;
+}
+
+.left-main-row {
+    display: flex;
+}
+
+.right-main-row {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.left-brand-recognition {
+    display: flex;
+    flex: 91%;
+    gap: 10px;
+}
+
+.right-brand {
+    flex: 9%;
+    justify-content: flex-end !important;
+    gap: 10px;
+}
+
+.sub-row-container {
+    height: 100%;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    border-left: 1px solid #c29ffa;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 8px 16px 9px 56px;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    font-size: 14px;
+    color: #212529;
+    font-family: Figtree;
+    justify-content: space-between;
+}
+
+.left-modify-hybrid {
+    display: flex
+}
+.downIcon
+{
+    cursor: pointer;
+    position: absolute;
+    bottom: -13px;
+    z-index: 1;
+    right: 40px;
+ 
+}
+.table-row
+{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-secondary, #6C757D);
+    font-family: "Figtree";
+    font-size: 12px;
+    font-weight: 600; 
+    line-height: 150%;
+}
+.calendar
+{
+    display: flex;
+    align-items: center;
+}
+.calendar .month
+{
+    display:flex;
+    align-items:center;
+    width:80px;
+    height:32px;
+    background:rgba(0, 33, 66, 0.06);
+}
+.calendar div
+{
+cursor: pointer;
+}
+.indicators-icon-leading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 49px;
+    background-color: rgb(174, 248, 168);
+    padding:6px;
+}
+
+.indicators-icon-lagging {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 49px;
+    background-color: rgb(249, 203, 151);
+    padding: 6px;
+}
+.button-group {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 14px;
+    color: #495057;
+    font-family: Figtree;
+}
+.left-arrow {
+    cursor: pointer;
+    border-radius: 8px 0px 0px 8px;
+    background-color: rgba(0, 33, 66, 0.06);
+    height: 32px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 8px;
+    box-sizing: border-box;
+}
+.center-btn {
+    background-color: rgba(0, 33, 66, 0.06);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 8px;
+    margin-left: -1px;
+}
+.right-arrow {
+    cursor: pointer;
+    border-radius: 0px 8px 8px 0px;
+    background-color: rgba(0, 33, 66, 0.06);
+    height: 32px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 8px;
+    box-sizing: border-box;
+    margin-left: -1px;
+}
+
+
+.cal {
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cal-text {
+    text-wrap: nowrap;
+    position: relative;
+    line-height: 20px;
+}
+
+.persp-title
+{
+font-size: 16px;
+line-height: 150%;
+font-weight: 600;
+font-family: 'Figtree';
+color: #212529;
+text-align: left;
+white-space: nowrap; 
+overflow: hidden;
+text-overflow: ellipsis; 
+}
+.persp-title:hover
+{
+    overflow: visible;
+}
+
+

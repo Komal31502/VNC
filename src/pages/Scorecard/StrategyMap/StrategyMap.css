@@ -1,0 +1,232 @@
+.strategy-map-parent {
+    width: 100%;
+    height: calc(96vh - 121px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.collapsable-icon {
+    cursor: pointer;
+    margin-top: 36px;
+    margin-right: -10px;
+    z-index: 2;
+}
+
+
+
+.collapse-icon {
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    left: 23%;
+    transform: rotate(180deg);
+    z-index: 2;
+}
+
+.collapse-right {
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    left: 31px;
+    position: absolute;
+    top: 15px;
+    left: 23%;
+    transform: rotate(180deg);
+    z-index: 2;
+}
+
+.collapse-right {
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    left: 31px;
+    transform: rotate(180deg);
+    z-index: 2;
+    z-index: 2;
+}
+
+
+.strategy-map-header {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 32px 40px 16px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 20px;
+    color: #212529;
+    font-family: Figtree;
+}
+
+.left-side {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+    text-align: left;
+    font-size: 20px;
+    color: #212529;
+    font-family: Figtree;
+    flex: 90% 1;
+}
+
+.strategy-header {
+    position: relative;
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: 600;
+    font-family: 'Figtree';
+    font-family: 'Figtree';
+    color: #212529;
+    text-align: left;
+
+}
+.strategy-subheader {
+    position: relative;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Figtree';
+    font-family: 'Figtree';
+    color: #6c757d;
+    text-align: left;
+}
+.right-side {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+    text-align: left;
+    font-size: 14px;
+    color: #495057;
+    font-family: Figtree;
+    flex: 10% 1;
+}
+.divider-style {
+    border: 0.001px solid rgb(230, 230, 230)
+}
+.perspective-header {
+    border: 0.009px solid rgb(230, 230, 230)
+}
+
+.main-content 
+{
+    display: flex;
+    height: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.perspec-index {
+    width: 40px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+}
+.persp-header {
+    display: flex;
+    display: flex;
+    background-color: #fd9843;
+    border-radius: 4px;
+    color: black;
+    color: black;
+    padding: 4px 7.800000190734863px;
+}
+
+.disp-header {
+    width: 100%;
+    transform: rotate(-90deg);
+    color: var(--text-secondary, #6C757D);
+    text-align: center;
+
+    /* Components/Badge/H6 */
+    font-family: 'Figtree';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    /* 12px */
+    /* Components/Badge/H6 */
+    font-family: 'Figtree';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    /* 12px */
+}
+
+.perspective-subheader 
+{
+    width: 100%;
+    position: relative;
+    font-size: 12px;
+    line-height: 150%;
+    font-family: Figtree;
+    color: #212529;
+    text-align: left;
+    display: inline-block;
+}
+.perspective-container {
+    width: 25%;
+    padding: 40px 40px 40px 24px;
+    background-color: #f8f9fa;
+    border-right: 1px solid rgba(33, 37, 41, 0.05);
+    width: 25%;
+    padding: 40px 40px 40px 24px;
+    background-color: #f8f9fa;
+    border-right: 1px solid rgba(33, 37, 41, 0.05);
+    box-sizing: border-box;
+}
+.card-label-design {
+    margin-left: 12px;
+    top: 90px;
+}
+
+.center-btn {
+    background-color: rgba(0, 33, 66, 0.06);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 8px;
+    margin-left: -1px;
+}
+.right-arrow {
+    cursor: pointer;
+    border-radius: 0px 8px 8px 0px;
+    background-color: rgba(0, 33, 66, 0.06);
+    height: 32px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 8px;
+    box-sizing: border-box;
+    margin-left: -1px;
+}
+
+
+.cal {
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cal-text {
+    text-wrap: nowrap;
+    position: relative;
+    line-height: 20px;
+}

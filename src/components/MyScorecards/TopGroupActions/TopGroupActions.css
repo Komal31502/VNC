@@ -1,0 +1,73 @@
+
+.top-group-wrapper-icon {
+    position: relative;
+    width: 16px;
+    height: 16px;
+}
+.top-group-icon-wrapper{
+    background-color: rgba(255, 255, 255, 0);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top-group-text1 {
+    position: relative;
+    line-height: 150%;
+}
+.top-group-text {
+    background-color: rgba(255, 255, 255, 0);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.top-group-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.top-group-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.top-group-items{
+    align-self: stretch;
+    background-color: rgba(255, 255, 255, 0);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: 4px 16px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.top-group-actions {
+    position: relative;
+    border-radius: 8px;
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 16px;
+    color: #212529;
+    font-family: Figtree;
+}
+.container-size{
+    position:relative;
+    width:190px;
+    height:130px;
+}
+.parent-padding{
+      padding: 8px 0px;
+}
+
